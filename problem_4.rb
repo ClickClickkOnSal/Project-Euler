@@ -6,7 +6,7 @@ def palin()
   high_num = 0
   (100..999).each do |n|
     (100..999).each do |i|
-      if(n * i) === ((n *i).to_s.reverse.to_i)
+      if(n * i) == ((n *i).to_s.reverse.to_i)
         if n * i > high_num
           high_num = n * i
         end

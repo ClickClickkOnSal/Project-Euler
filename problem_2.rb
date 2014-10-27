@@ -13,6 +13,19 @@
 # 13 + 8
 # 21 + 13
 
+def even
+  total = 0
+  int = 0
+  until fib(int) > 4_000_000
+    if fib(int) % 2 == 0
+      sum = fib(int)
+      total += sum
+    end
+    int +=1
+  end
+  p total
+end
+
 def fib(num)
   if num < 2
       num
@@ -21,8 +34,7 @@ def fib(num)
   end
 end
 
-total = 0
-p fib(33) 
+even
 
 
 
