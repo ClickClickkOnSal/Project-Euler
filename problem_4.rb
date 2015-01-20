@@ -2,7 +2,7 @@
 
 # Find the largest palindrome made from the product of two 3-digit numbers.
 
-def palin() 
+def palin 
   high_num = 0
   (100..999).each do |n|
     (100..999).each do |i|
